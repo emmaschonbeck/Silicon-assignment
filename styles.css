@@ -79,10 +79,11 @@ header .container {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    transition: .6s;
 }
 
 .btn-primary:hover {
-    background-color: #5759d3;
+    background-color: #7374b4;
     text-decoration: none;
 }
 
@@ -301,9 +302,10 @@ header .header-container {
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
+                transition: .6s;
             }
             .btn-download-app:hover {
-                background-color: #131a2b;
+                background-color: #2b354f;
                 color: var(--color-white);
                 text-decoration: none;
             }
@@ -699,6 +701,165 @@ header .header-container {
 
 
 /* HOW DOES IT WORK END */
+
+
+/* DESKTOP ONLY 1 START */
+
+
+#desktop-only-1 {
+
+    .container {
+        display: none;
+        padding-left: var(--container-padding);
+        padding-right: var(--container-padding);
+
+        @media (min-width: 1400px) {
+            display: grid;
+            grid-template-areas: "content-4 img-upper"   "img-lower content-5";
+            justify-items: center;
+            
+        }
+    }
+
+    .content-4 {
+        grid-area: content-4;
+        margin-top: 12rem;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-titles);
+            margin-bottom: 2rem;
+        }
+    }
+
+    .text-list-container {
+        list-style: none;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        span {
+            font-size: 1rem;
+            color: var(--color-primary);
+            margin-left: .5rem;
+        }
+
+        img {
+
+        }
+    }
+
+    .btn-learn-more-1 {
+        font-size: .9rem;
+        color: var(--color-white);
+        background-color: var(--color-logo-bg);
+        border: 1px solid transparent;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: .6s;
+
+        img {
+            margin-left: .4rem;
+        }
+    }
+
+    .btn-learn-more-1:hover {
+        background-color: #7374b4;
+        color: var(--color-white) 
+    }
+
+    .image-upper-container {
+        grid-area: img-upper;
+        margin-top: 8rem;
+        padding-left: 9rem;
+
+        .img-sm {
+            position: relative;
+            bottom: 70px;
+            left: 210px;
+        }
+    }
+
+    .image-lower-container {
+        grid-area: img-lower;
+        margin-top: 5rem;
+        padding-left: 9rem;
+
+        .img-sm2 {
+            position: relative;
+            bottom: 330px;
+            left: 130px;
+        }
+    }
+
+    .content-5 {
+        grid-area: content-5;
+        margin-top: 8rem;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-titles);
+            margin-bottom: 3rem;
+        }
+    }
+
+    .payment-container {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .payment-icon-container {
+
+        p {
+            font-size: 1rem;
+            color: var(--color-primary);
+            max-width: 240px;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    .img-container {
+        border: 1px solid transparent;
+        border-radius: 8px;
+        background-color: #F3F6FF;
+        max-width: 60px;
+        max-height: 60px;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-learn-more-2 {
+        font-size: .9rem;
+        color: var(--color-white);
+        background-color: var(--color-logo-bg);
+        border: 1px solid transparent;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: .6s;
+
+        img {
+            margin-left: .4rem;
+        }
+    }
+
+    .btn-learn-more-2:hover {
+        background-color: #7374b4;
+        color: var(--color-white) 
+    }
+
+
+}
+
+
+/* DESKTOP ONLY 1 START */
 
 
 /* MEDIA START */
