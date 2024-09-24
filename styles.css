@@ -746,8 +746,8 @@ header .header-container {
             margin-left: .5rem;
         }
 
-        img {
-
+        li {
+            display: flex;
         }
     }
 
