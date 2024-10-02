@@ -950,6 +950,46 @@ header .header-container {
 
 /* DESKTOP ONLY 2 END */
 
+/* ACCORDION START */
+
+
+#FAQs {
+
+    .container {
+
+    }
+
+    .faq-text {
+        text-align: center;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #131022;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 18px;
+            color: var(--color-text);
+        }
+    }
+
+    .contact-container {
+
+    }
+
+    .contact-us {
+
+    }
+
+
+}
+
+
+/* ACCORDION END */
+
 
 /* MEDIA START */
 
