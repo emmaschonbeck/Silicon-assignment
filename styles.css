@@ -977,14 +977,56 @@ header .header-container {
     }
 
     .contact-container {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block;
+        }
 
     }
 
     .contact-us {
+        display: inline-block;
+        border: 1px solid var(--color-grey-300);
+        border-radius: 8px;
+        padding: 1rem;
+
+        img {
+            
+        }
+
+        p {
+            font-size: 14px;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            margin-top: .7rem;
+        }
+
+        a {
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #22C55E;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-left: 8px;
+            }
+        }
+
+        .contact-phone {
+            color: var(--color-logo-bg);
+        }
+    }
+
+    .accordion-container {
 
     }
 
-
+    .accordion {
+        
+    }
 }
 
 
